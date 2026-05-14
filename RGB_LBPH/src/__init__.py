@@ -1,0 +1,1 @@
+"""RGB-LBPH source package."""

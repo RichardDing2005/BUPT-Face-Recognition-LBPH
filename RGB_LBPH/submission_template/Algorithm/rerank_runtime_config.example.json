@@ -1,0 +1,8 @@
+{
+  "candidate_top_k": 2,
+  "confidence_gate": 70.0,
+  "rerank_margin_ratio": 0.0,
+  "grid_x": 10,
+  "grid_y": 11,
+  "color_bins": 8
+}

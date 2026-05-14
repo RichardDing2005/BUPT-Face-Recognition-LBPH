@@ -1,0 +1,11 @@
+{
+  "size": [400, 450],
+  "detect_face": false,
+  "equalization": "clahe",
+  "margin_ratio": 0.15,
+  "min_face_size": [40, 40],
+  "scale_factor": 1.1,
+  "min_neighbors": 5,
+  "fallback_to_full_image": true,
+  "input_adapter": "score2026_framework"
+}
