@@ -1,0 +1,43 @@
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local environments
+.venv/
+venv/
+env/
+
+# Runtime data and generated artifacts
+datasets/
+metadata/
+reports/
+experiments/
+backend_artifacts/
+Algorithm*/
+!submission_template/Algorithm/
+!submission_template/Algorithm/**
+
+# Trained models and packaged submissions
+*.xml
+*.yml
+*.yaml
+*.tar.gz
+*.zip
+*.pkl
+*.joblib
+
+# Large or private image payloads
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.pgm
+*.ppm
+*.tif
+*.tiff
+
+# Editor and OS noise
+.DS_Store
+Thumbs.db
+.vscode/

@@ -1,0 +1,26 @@
+{
+  "algorithm_name": "GRAY-LBPH",
+  "profile_name": "GRAY_LBPH_400x450_10x11_clahe",
+  "preprocess": {
+    "size": [400, 450],
+    "detect_face": false,
+    "equalization": "clahe",
+    "margin_ratio": 0.15,
+    "min_face_size": [40, 40],
+    "scale_factor": 1.1,
+    "min_neighbors": 5,
+    "fallback_to_full_image": true,
+    "input_adapter": "score2026_framework"
+  },
+  "lbph": {
+    "radius": 2,
+    "neighbors": 8,
+    "grid_x": 10,
+    "grid_y": 11,
+    "threshold": null
+  },
+  "notes": [
+    "This profile uses grayscale LBPH features.",
+    "Raw datasets, trained XML models, and private label mappings are intentionally excluded from the public source repository."
+  ]
+}
