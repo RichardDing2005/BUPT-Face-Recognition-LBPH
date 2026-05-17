@@ -19,6 +19,8 @@ Algorithm*/
 !GRAY_LBPH/submission_template/Algorithm/**
 !RGB_LBPH/submission_template/Algorithm/
 !RGB_LBPH/submission_template/Algorithm/**
+!CA_ME_LBPH/submission_template/Algorithm/
+!CA_ME_LBPH/submission_template/Algorithm/**
 
 # Trained models and packaged submissions
 *.xml
