@@ -97,7 +97,7 @@ The repo-local `--basetemp` keeps pytest temporary files inside this workspace s
 
 ## 中文
 
-本仓库是 BUPT 课堂人脸识别项目的独立源码发布版本。项目由三个平行 LBPH 子项目组成，每个子项目都可以单独安装、测试和使用：
+本仓库是北京邮电大学（BUPT）电子工程学院的初级项目课人脸识别项目的独立源码发布版本。项目由三个平行 LBPH 子项目组成，每个子项目都可以单独安装、测试和使用：
 
 - `GRAY_LBPH/`：稳定的 OpenCV 灰度 LBPH 基线。
 - `RGB_LBPH/`：保留 GRAY-LBPH 作为第一阶段，并使用 RGB 直方图证据对相近候选进行颜色重排。
